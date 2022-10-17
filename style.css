@@ -1,0 +1,8 @@
+.primary-font{
+    font-family: 'Nunito', sans-serif;
+    color : #012970;
+}
+
+.primary-font:hover {
+    color: #4154f1;
+}
