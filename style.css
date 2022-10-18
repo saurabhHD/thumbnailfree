@@ -1,13 +1,13 @@
 .primary-font{
-    font-family: 'Nunito', sans-serif;
-    color : #012970;
+    font-family: 'Nunito', sans-serif !important;
+    color : #012970 !important;
 }
 .secondary-font{
     font-family: 'Open Sans', sans-serif;
     
 }
 .primary-font:hover {
-    color: #4154f1;
+    color: #4154f1 !important;
 }
 
 
@@ -16,18 +16,18 @@
 }
 
 .fs-primary{
-    font-family: 'Nunito', sans-serif;
-    color : #012970;
+    font-family: 'Nunito', sans-serif !important;
+    color : #012970 !important;
 }
 
 .hero-contact-btn{
-    color: #fff;
-    background-color: #012970;
-    font-family: 'Nunito', sans-serif;
+    color: #fff !important;
+    background-color: #012970 !important;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 .hero-contact-btn:hover{
-    color: #012970;
-    background-color: #fff;
-    border: 1px solid #012970;
+    color: #012970 !important;
+    background-color: #fff !important;
+    border: 1px solid #012970 !important;
 }
