@@ -17,9 +17,11 @@
 
 .fs-primary{
     font-family: 'Nunito', sans-serif !important;
+    
+}
+.main-color{
     color : #012970 !important;
 }
-
 .hero-contact-btn{
     color: #fff !important;
     background-color: #012970 !important;
