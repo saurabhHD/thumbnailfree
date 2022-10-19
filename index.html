@@ -12,6 +12,9 @@
     <!-- Fontawsome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +26,7 @@
   <body>
     <!-- Live Chat Wedget -->
     <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
         (function(){
         var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -33,7 +36,7 @@
         s1.setAttribute('crossorigin','*');
         s0.parentNode.insertBefore(s1,s0);
         })();
-        </script>
+        </script> -->
     <!--End of Tawk.to Script-->
     <!-- Header   -->
     
@@ -69,22 +72,60 @@
 
     <!-- Hero Section -->
 
-    <section>
+    <section name="hero" class="mb-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 my-3 text-lg-left text-center">
+                <div class="col-md-6 my-3 text-lg-left text-center animate__animated animate__fadeInUp">
+
                     <h1 class="fs-primary main-color mt-5 mb-3">
                         We create thumbnails for your youtube channels at very low price 
                     </h1>
                     <p class="fs-primary text-secondary">Only one website which  fullfill your all graphic requirements . Grow your youtube channels with us</p>
                     <button class="btn hero-contact-btn px-5 py-2 mt-3" type="button">Contact Us</button>
                 </div>
-                <div class="col-md-6 my-3">
+                <div class="col-md-6 my-3 animate__animated animate__zoomIn">
                     <img src="images/thumbnailfree-hero-image.svg" alt="hero-image" class="w-100">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section name="about" class="mb-3">
+        <div class="container">
+            <h2 class="fs-primary main-color text-center mt-3 mb-5">Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/youtube-thumb.svg" alt="" class="w-50">
+                            <h4 class="card-title fs-primary main-color my-3">Youtube Thumbnail</h4>
+                            <p class="card-text text-secondary">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/logo-service.svg" alt="" class="w-50">
+                            <h4 class="card-title fs-primary main-color my-3">Logo Design</h4>
+                            <p class="card-text text-secondary">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/social-media.svg" alt="" class="w-50">
+                            <h4 class="card-title fs-primary main-color my-3">Social Media Banner</h4>
+                            <p class="card-text text-secondary">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
