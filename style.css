@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  
 .primary-font{
     font-family: 'Nunito', sans-serif !important;
     color : #012970 !important;
