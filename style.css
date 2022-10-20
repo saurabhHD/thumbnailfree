@@ -32,14 +32,14 @@ html {
 }
 .hero-contact-btn{
     color: #fff !important;
-    background-color: #012970 !important;
-    font-family: 'Nunito', sans-serif !important;
+    background-color: #4154f1 !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero-contact-btn:hover{
-    color: #012970 !important;
+    color: #4154f1 !important;
     background-color: #fff !important;
-    border: 1px solid #012970 !important;
+    border: 1px solid #4154f1 !important;
 }
 
 /* 
