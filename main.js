@@ -9,14 +9,14 @@ $(document).ready(function(){
         if(name != "" && email != "" && subject != "" && message != ""){
             let data = {
                 name : name,
-                email : email+'\n',
+                email : email,
                 subject : subject,
                 message : message
             };
             data = JSON.stringify(data);
             data = data.replace('{','');
             data = data.replace('}','');   
-            let link = `https://wa.me/918910569936?text=saurabh\nkumar`;
+            let link = `https://wa.me/918910569936?text=${data}`;
             let a = document.createElement('a');
             a.href= link;
             a.target = "_blank";
