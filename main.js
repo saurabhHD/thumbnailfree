@@ -7,15 +7,8 @@ $(document).ready(function(){
         let subject = $("[name=subject]").val();
         let message = $("[name=message]").val();
         if(name != "" && email != "" && subject != "" && message != ""){
-            let data = {
-                name : name,
-                email : email,
-                subject : subject,
-                message : message
-            };
-            data = JSON.stringify(data);
-            data = data.replace('{','');
-            data = data.replace('}','');   
+          
+            let data = `*Name* : ${name}%0D%0A*Email* : ${email}%0D%0A*Subject* : ${subject}%0D%0A*Message* : ${message}`;
             let link = `https://wa.me/918910569936?text=${data}`;
             let a = document.createElement('a');
             a.href= link;
