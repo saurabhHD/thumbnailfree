@@ -22,7 +22,7 @@ $(document).ready(function(){
             a.target = "_blank";
             $("body").append(a);
             a.click();
-
+            
             // Relese Memory
             delete name;
             delete email;
@@ -39,3 +39,4 @@ $(document).ready(function(){
         // console.log(link)
     });
 });
+
